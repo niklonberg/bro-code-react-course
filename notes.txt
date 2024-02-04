@@ -1,0 +1,3 @@
+When you return a component inside a function, you can write it two ways:
+
+<Header></Header> || <Header/>
