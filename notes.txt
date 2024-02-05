@@ -43,3 +43,15 @@ a parent component can send data to a child component
 allows you to control what gets rendered in your applications
 based on certain conditions (show, hide | change components)
 
+*CLICK EVENTS*
+When we return components, we can add add a onClick attribute (among many other) 
+to them, so things can happen when we interact with that component
+It is very much like setting inline functions/styling on html elements
+
+*REACT HOOKS*
+Special functions that allows functional components to use React features
+without writing class components. (useState, useEffect, useContext etc.)
+
+useState() = a react hook that allows the creation of a stateful variable
+AND a setter function to update its value in the virtual DOM.
+[name, setName]
