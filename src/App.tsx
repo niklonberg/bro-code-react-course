@@ -8,6 +8,7 @@ import UserGreeting from "./components/UserGreeting.js";
 import List from "./components/List.js";
 import ListReusable from "./components/ListReusable.js";
 import ButtonClickEvent from "./components/ButtonClickEvent.js";
+import ProfilePicture from "./components/ProfilePicture.js";
 
 function App() {
   const fruits = [
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <>
+      <ProfilePicture />
       <ButtonClickEvent />
       <UserGreeting isLoggedIn={true} userName="niklonberg" />
       <List />
