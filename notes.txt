@@ -1,3 +1,40 @@
 When you return a component inside a function, you can write it two ways:
 
 <Header></Header> || <Header/>
+
+Function based components can only return one component at a time.
+Use "<> </>" or a div to return multiple things
+
+*COMPONENTS & STYLING*
+Components can be styled in different ways. 
+If we exclude external frameworks or preprocessors:
+
+1 External (having an index.css file for example)
+can be troublesome in large applications and teams, you would
+need very good organisation and naming conventions to avoid duplicate
+class names etc.
+
+2 Modules
+Each component has a dedicated css stylesheet, specifically for each 
+component
+See Button folder for example
+each component is put inside a seperate folder see Button folder
+Downsides: requires additional setup (sep. folder) and global
+styles arent applied easily (would need to be imported elsewhere)
+
+3 Inline styling
+Each component has inline styles put upon it, from an object.
+See ButtonInlineStyles.tsx for example
+Convenient and easy to understand, prevents global style conflics 
+since no class/ids are used.
+Great for isolated components, with minimal styling, like a like|subscribe
+button.
+Downsides:
+Becomes increasingly less maintainable in large applications, it reduces
+the readability of your components, especially if you have many and complex
+styling.
+
+*PROPS*
+read only properties that are shared between components
+a parent component can send data to a child component
+<Component key=value />
