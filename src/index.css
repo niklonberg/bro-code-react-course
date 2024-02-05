@@ -117,6 +117,7 @@ button:focus-visible {
 }
 
 .welcome-message {
+  text-align: center;
   font-size: 2.5rem;
   background-color: hsl(120, 100%, 42%);
   color: white;
@@ -156,4 +157,28 @@ button:focus-visible {
 .list-items li:hover {
   color: hsl(0, 0%, 45%);
   cursor: pointer;
+}
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.count-display {
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.counter-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(120, 100%, 42%);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.counter-btn:hover {
+  background-color: hsl(120, 100%, 60%);
 }

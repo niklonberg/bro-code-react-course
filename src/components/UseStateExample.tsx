@@ -5,7 +5,7 @@ import React, { useState } from "react";
 //and a setter function to update it
 
 function UseStateExample() {
-  // use array destructuring to get two variable
+  // use array destructuring to get two variables
   // here name and setName function.
   // when we call useState, we can pass in a starting value for name, here 'Guest'
   const [name, setName] = useState("Guest");

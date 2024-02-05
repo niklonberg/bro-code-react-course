@@ -10,6 +10,7 @@ import ListReusable from "./components/ListReusable.js";
 import ButtonClickEvent from "./components/ButtonClickEvent.js";
 import ProfilePicture from "./components/ProfilePicture.js";
 import UseStateExample from "./components/UseStateExample.js";
+import Counter from "./components/Counter.js";
 
 function App() {
   const fruits = [
@@ -30,6 +31,7 @@ function App() {
 
   return (
     <>
+      <Counter />
       <UseStateExample />
       <ProfilePicture />
       <ButtonClickEvent />
