@@ -133,3 +133,27 @@ button:focus-visible {
   border-radius: 5px;
   margin: 0;
 }
+
+.list-category {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: #3096ef;
+}
+
+.list-items li {
+  font-size: 2rem;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
