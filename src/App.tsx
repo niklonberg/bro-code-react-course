@@ -7,6 +7,7 @@ import Student from "./components/Student.js";
 import UserGreeting from "./components/UserGreeting.js";
 import List from "./components/List.js";
 import ListReusable from "./components/ListReusable.js";
+import ButtonClickEvent from "./components/ButtonClickEvent.js";
 
 function App() {
   const fruits = [
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <>
+      <ButtonClickEvent />
       <UserGreeting isLoggedIn={true} userName="niklonberg" />
       <List />
       {fruits.length > 0 ? (

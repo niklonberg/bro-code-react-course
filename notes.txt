@@ -42,3 +42,4 @@ a parent component can send data to a child component
 *CONDITIONAL RENDERING*
 allows you to control what gets rendered in your applications
 based on certain conditions (show, hide | change components)
+
