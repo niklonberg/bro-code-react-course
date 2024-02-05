@@ -38,3 +38,7 @@ styling.
 read only properties that are shared between components
 a parent component can send data to a child component
 <Component key=value />
+
+*CONDITIONAL RENDERING*
+allows you to control what gets rendered in your applications
+based on certain conditions (show, hide | change components)
