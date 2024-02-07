@@ -60,3 +60,10 @@ AND a setter function to update its value in the virtual DOM.
 event handler used primarily with form elements, ex. <input>, 
 <textarea>, <select>, <radio>
 Triggers a function every time the value of the input changes
+
+*Updater functions*
+a function passed as an argument to setState(), usually
+ex. setYear(y => y + 1)
+Allow for safe updates based on the previous state
+used with multiple state updates and asynchronous functions
+good practice to use update functions

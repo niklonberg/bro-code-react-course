@@ -13,6 +13,7 @@ import UseStateExample from "./components/UseStateExample.js";
 import Counter from "./components/Counter.js";
 import OnChangeExample from "./components/OnChangeExample.js";
 import ColorPicker from "./components/ColorPicker.js";
+import CounterUpdateFnsExample from "./components/UpdateFunction.js";
 
 function App() {
   const fruits = [
@@ -33,6 +34,7 @@ function App() {
 
   return (
     <>
+      <CounterUpdateFnsExample />
       <ColorPicker />
       <OnChangeExample />
       <Counter />
