@@ -14,6 +14,7 @@ import Counter from "./components/Counter.js";
 import OnChangeExample from "./components/OnChangeExample.js";
 import ColorPicker from "./components/ColorPicker.js";
 import CounterUpdateFnsExample from "./components/UpdateFunction.js";
+import UpdateObject from "./components/UpdateObjects.js";
 
 function App() {
   const fruits = [
@@ -34,6 +35,7 @@ function App() {
 
   return (
     <>
+      <UpdateObject />
       <CounterUpdateFnsExample />
       <ColorPicker />
       <OnChangeExample />
