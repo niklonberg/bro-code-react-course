@@ -11,6 +11,7 @@ import ButtonClickEvent from "./components/ButtonClickEvent.js";
 import ProfilePicture from "./components/ProfilePicture.js";
 import UseStateExample from "./components/UseStateExample.js";
 import Counter from "./components/Counter.js";
+import OnChangeExample from "./components/OnChangeExample.js";
 
 function App() {
   const fruits = [
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <>
+      <OnChangeExample />
       <Counter />
       <UseStateExample />
       <ProfilePicture />
