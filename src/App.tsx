@@ -16,6 +16,8 @@ import ColorPicker from "./components/ColorPicker.js";
 import CounterUpdateFnsExample from "./components/UpdateFunction.js";
 import UpdateObject from "./components/UpdateObjects.js";
 import UpdateArray from "./components/UpdateArray.js";
+import Cars from "./components/Cars.js";
+import ToDoList from "./components/ToDoList.js";
 
 function App() {
   const fruits = [
@@ -36,6 +38,8 @@ function App() {
 
   return (
     <>
+      <ToDoList />
+      <Cars />
       <UpdateArray />
       <UpdateObject />
       <CounterUpdateFnsExample />
