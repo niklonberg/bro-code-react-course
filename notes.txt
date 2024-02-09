@@ -67,3 +67,21 @@ ex. setYear(y => y + 1)
 Allow for safe updates based on the previous state
 used with multiple state updates and asynchronous functions
 good practice to use update functions
+
+*useEffect*
+React hook that tells react to do some code when:
+  this component rerenders
+  this component mounts (is added to dom)
+  the state of a value changes
+
+useEffect(function, [dependencies])
+1. useEffect(() => {})            // runs after every rerender
+2. useEffect(() => {}, [])        // runs only on mount
+3. useEffect(() => {}, [value])   // runs on mount + when value changes
+
+USECASES
+#1 EVENT listeners
+#2 DOM manipulation
+#3 subscriptions
+#4 fetching data from api
+#5 clean up when a component mounts
