@@ -298,3 +298,14 @@ input[type="text"] {
 .todo-text {
   flex: 1;
 }
+
+.clock-container {
+}
+
+.clock {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+  text-align: center;
+}

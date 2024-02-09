@@ -20,6 +20,7 @@ import Cars from "./components/Cars.js";
 import ToDoList from "./components/ToDoList.js";
 import UseEffectExampleOne from "./components/UseEffectExampleOne.js";
 import UseEffectExampleTwo from "./components/UseEffectExampleTwo.js";
+import DigitalClock from "./components/DigitalClock.js";
 
 function App() {
   const fruits = [
@@ -40,6 +41,7 @@ function App() {
 
   return (
     <>
+      <DigitalClock />
       <UseEffectExampleTwo />
       <UseEffectExampleOne />
       <ToDoList />
