@@ -19,6 +19,7 @@ import UpdateArray from "./components/UpdateArray.js";
 import Cars from "./components/Cars.js";
 import ToDoList from "./components/ToDoList.js";
 import UseEffectExampleOne from "./components/UseEffectExampleOne.js";
+import UseEffectExampleTwo from "./components/UseEffectExampleTwo.js";
 
 function App() {
   const fruits = [
@@ -39,6 +40,7 @@ function App() {
 
   return (
     <>
+      <UseEffectExampleTwo />
       <UseEffectExampleOne />
       <ToDoList />
       <Cars />
