@@ -12,4 +12,6 @@ function UseContextD() {
   );
 }
 
+/* UseContextD is a CONSUMER COMPONENT */
+
 export default UseContextD;

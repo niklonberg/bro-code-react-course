@@ -90,7 +90,7 @@ USECASES
 React hook that allows you to share values between multiple levels
 of components without passing props through each level
 
-first we need to setup a:
+first we need to setup:
 // PROVIDER COMPONENT
 1. import {createContext} from 'react'
 2. export const MyContext = createContext()
@@ -98,8 +98,22 @@ first we need to setup a:
     <Child/>
    </MyContext.Provider>
 
-and then a: 
+and then setup: 
 // CONSUMER COMPONENT
 1. import {useContext} from 'react'
 2. import {MyContext} from './foo'
 3. const value = useContext(MyContext)
+
+*useRef*
+very similar to useState. useState stores some kind of a value, or
+an object or array. When the value changes, useState rerenders the
+component, which isnt always what we want.
+
+useRef meaning 'use reference' DOESNT cause re-renders when its value
+changes. When you want a component to "remember" some information,
+but you dont want that information to Trigger new renders
+
+useful for:
+1. accessing/interacting with DOM elements
+2. handling focus, animations and transitions
+3. managing timers and intervals

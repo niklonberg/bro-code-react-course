@@ -24,8 +24,12 @@ function UseContextA() {
       <UserContext.Provider value={user}>
         <UseContextB />
       </UserContext.Provider>
+      {/* any component that is a child component of A will have access to 'user' 
+      by using useContext */}
     </div>
   );
 }
+
+/* UseContextA is our PROVIDER COMPONENT */
 
 export default UseContextA;
