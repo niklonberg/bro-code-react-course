@@ -21,6 +21,7 @@ import ToDoList from "./components/ToDoList.js";
 import UseEffectExampleOne from "./components/UseEffectExampleOne.js";
 import UseEffectExampleTwo from "./components/UseEffectExampleTwo.js";
 import DigitalClock from "./components/DigitalClock.js";
+import UseContextA from "./components/UseContextA.js";
 
 function App() {
   const fruits = [
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <>
+      <UseContextA />
       <DigitalClock />
       <UseEffectExampleTwo />
       <UseEffectExampleOne />
